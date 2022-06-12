@@ -338,18 +338,20 @@ img {
     justify-content: space-between;
 }
 
-.social {
-    display: flex;
+.social-networks li {
     width: 44px;
     height: 44px;
+}
+
+.social {
+    display: flex;
+    width: 100%;
+    height: 100%;
     justify-content: center;
     align-items: center;
     
     border-radius: 50%;
     color: var(--icon-color);
-}
-
-.social .icon {
     fill: currentColor;
 }
 
@@ -471,8 +473,10 @@ a.social:hover {
     margin-right: -10px;
 }
 
-.footer .social {
+.footer .social-networks li {
     margin-right: 10px;
+}
+.footer .social {
     background-color: #ffffff10;
     color: var(--sec-txt-color);
 }
