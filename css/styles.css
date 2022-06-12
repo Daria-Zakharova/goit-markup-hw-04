@@ -183,6 +183,7 @@ img {
 .hero .button:hover,
 .hero .button:focus {
     background-color: #188ce8;
+    outline: none;
 }
 
 .filters .button {
@@ -360,6 +361,7 @@ a.social:hover,
 a.social:focus {
     background-color: var(--accent-color);
     color: var(--sec-txt-color);
+    outline: none;
 }
 
 /* ------------Clients------------ */
@@ -389,6 +391,7 @@ a.social:focus {
 .client-link:hover,
 .client-link:focus{
     color: var(--accent-color);
+    outline: none;
 }
 
 .client-logo {
@@ -425,6 +428,7 @@ a.social:focus {
 .projects-card .link:hover,
 .projects-card .link:focus{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    outline: none;
 }
 
 .projects-txt {
