@@ -47,7 +47,7 @@ img {
     padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
-    clip: rect(0 0 0 0);
+    clip: rect(0, 0, 0, 0);
     overflow: hidden;
 }
 
@@ -114,6 +114,10 @@ img {
 .nav-link.current {
     color: var(--accent-color);
 }
+/* 
+.logo:focus {
+    outline: solid 1px var(--accent-color);
+} */
 
 .nav-link {
     color: var(--title-txt-color);
@@ -248,8 +252,10 @@ img {
 }
 
 .join-wrap .subtitle {
-    color: var(--sec-txt-color);
     margin-bottom: 20px;
+    
+    font-weight: 700;
+    color: var(--sec-txt-color);
 }
 
 /* ------------Content------------ */
